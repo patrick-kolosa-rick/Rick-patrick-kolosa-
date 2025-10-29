@@ -1,0 +1,236 @@
+
+/* Style général */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+/* Titres */
+h1 {
+  background-color: #004080;
+  color: white;
+  padding: 20px 0;
+  margin: 0;
+}
+
+h2 {
+  color: #333;
+  margin: 20px 0;
+}
+
+/* Images */
+img {
+  max-width: 80%;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+/* Liens de navigation */
+.lipasa {
+  background-color: #004080;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+
+.lipasa a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.lipasa a:hover {
+  text-decoration: underline;
+  color: #ffcc00;
+}
+
+
+
+
+body {
+
+
+cele
+
+
+
+
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+  text-align: center;
+
+}
+
+h1 {
+  background-color: #005599;
+  color: white;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+.TP {
+  background-color: white;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  box-shadow: 0 0 10px #ccc;
+  border-radius: 8px;
+  text-align: left;
+  background:#ff0;
+}
+
+.TP ol {
+  padding-left: 20px;
+}
+
+.TP li {
+  margin-bottom: 10px;
+}
+
+#DF {
+  background-color: #e6f0ff;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px #bbb;
+  text-align: left;
+  background:#00f;
+  color:#f4f4f4;
+}
+
+#DF a {
+  color: #f4f4f4;
+  text-decoration: none;
+}
+
+#DF a:hover {
+  text-decoration: underline;
+}
+
+.CCC {
+  margin-top: 30px;
+  background-color: #005599;
+  padding: 15px 0;
+}
+
+.CCC a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+.CCC a:hover {
+  color: #ffcc00;
+}
+
+patrick
+
+
+body {
+font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.catalogue {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.produit {
+  background-color: white;
+  border: 1px solid #ccc;
+  width: 220px;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ddd;
+}
+
+.produit img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.produit p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #000;
+}
+
+.produit a {
+  display: inline-block;
+  padding: 8px 12px;
+  background-color: #005599;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.produit a:hover {
+  background-color: #003f80;
+}
+
+body {
+  background-color: #f4f4f4; /* couleur de fond de toute la page */
+}
+
+header {
+  background-color: #222; /* couleur du haut (barre de navigation) */
+  color: white; /* couleur du texte */
+}
+
+nav a:hover {
+  color: #f39c12; /* couleur quand on survole un lien */
+}
+
+.btn {
+  background-color: #f39c12; /* couleur du bouton */
+  color: white;
+}
+
+.btn:hover {
+  background-color: #e67e22; /* couleur du bouton quand on survole */
+}
+
+footer {
+  background-color: #222; /* couleur du bas de page */
+  color: white;
+}
+
+
+
+header {
+  background-color: #0a2e6c; /* bleu foncé */
+  color: #fff; /* blanc */
+}
+
+.btn {
+  background-color: #28a745; /* vert */
+  color: white;
+}
+
+.btn:hover {
+  background-color: #1e7e34; /* vert foncé */
+}

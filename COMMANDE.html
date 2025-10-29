@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Passer une commande</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #00ff;
+      margin: 0;
+      padding: 0;
+      
+    }
+
+    header {
+      background-color: #3ea;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #f39c12;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 30px auto;
+      background:#3ea;
+      padding: 25px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+
+    label {
+      font-weight: bold;
+      color: #333;
+    }
+
+    input, select, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    textarea {
+      resize: none;
+    }
+
+    .btn {
+      background-color: #f39c12;
+      color: white;
+      border: none;
+      padding: 12px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #e67e22;
+    }
+4
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+  <h2>MAISON PATRICK MOBILE</h2>
+  <nav>
+    <a href="index.html">ACCEUIL</a>
+    <a href="PRODUIT.html">PRODUIT</a>
+    <a href="COMMANDE.html">COMMANDE</a>
+    <a href="CONNEXION.html">CONNEXION</a>
+      <a href="A PROPOS.html"> A PROPOS</a>
+       <a href="ADMINISTRATEUR.html">ADMINISTRATEUR </a>
+  </nav>
+</header>
+
+  <div class="container">
+    <h2>Formulaire de commande</h2>
+
+    <form action="#" method="post">
+      <label for="nom">Nom complet :</label>
+      <input type="text" id="nom" name="nom" placeholder="Entrez votre nom complet" required>
+
+      <label for="telephone">Numéro de téléphone :</label>
+      <input type="tel" id="telephone" name="telephone" placeholder="Ex : +243..." required>
+
+      <label for="adresse">Adresse de livraison :</label>
+      <textarea id="adresse" name="adresse" rows="3" placeholder="Entrez votre adresse complète" required></textarea>
+
+      <label for="produit">Produit à commander :</label>
+      <select id="produit" name="produit" required>
+        <option value="">-- Sélectionnez un téléphone --</option>
+        <option value="Samsung Galaxy S22">Samsung Galaxy S22</option>
+        <option value="iPhone 14">iPhone 14</option>
+        <option value="Infinix Note 30">Infinix Note 30</option>
+        <option value="Tecno Camon 20">Tecno Camon 20</option>
+      </select>
+
+      <label for="quantite">Quantité :</label>
+      <input type="number" id="quantite" name="quantite" min="1" value="1" required>
+
+      <label for="paiement">Mode de paiement :</label>
+      <select id="paiement" name="paiement" required>
+        <option value="">-- Choisissez un mode --</option>
+        <option value="Mobile Money">Mobile Money</option>
+        <option value="À la livraison">Paiement à la livraison</option>
+      </select>
+
+      <button type="submit" class="btn">Envoyer la commande</button>
+    </form>
+  </div>
+
+  <footer>
+    &copy;  2025 Maison Patrick mobile - Ir Rick Bøy Kolosa
+  </footer>
+
+</body>
+</html>
+
+
+
+
